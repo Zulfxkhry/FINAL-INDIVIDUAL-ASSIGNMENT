@@ -50,12 +50,10 @@
         <span></span>
         <label>Password</label>
       </div>
-      
       <div class="adjust">
         <div class="pass">Forgot Password?</div>
-        <div class="clear">Clear</div>
+        <div class="clear" onclick="clearForm()">Clear</div>
       </div>
-      
       <input type="submit" value="Login">
       <div class="signup_link">
         Not a member? <a href="signup.html">Signup</a>
@@ -64,14 +62,12 @@
   </div>
   
   <script>
-    const clearButton = document.querySelector('.clear');
-    const loginForm = document.querySelector('#login-form');
-  
-    clearButton.addEventListener('click', (event) => {
-      event.preventDefault();
-      loginForm.reset();
-    });
+    function clearForm() {
+      document.querySelector("form").reset();
+    }
   </script>
+
+ 
   
 
     <!-- FOOTER -->
@@ -93,6 +89,6 @@
         Copyright © 2023- All rights reserved 
         </div>
         </div>
-</footer>
+    </footer>
 </body>
 </html>

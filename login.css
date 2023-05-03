@@ -13,14 +13,15 @@ body{
   overflow: hidden;
 }
 .center{
-  position: absolute;
-  top: 110%;
+  position:absolute;
+  top:  150%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
   background: white;
   border-radius: 10px;
-  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+  box-shadow: 10px 10px 15px rgba(29, 146, 201, 0.05);
+
 }
 .center h1{
   text-align: center;
@@ -75,6 +76,7 @@ form .txt_field{
   width: 100%;
 }
 .pass{
+  margin: -5px 0 20px 5px;
   color: #a6a6a6;
   cursor: pointer;
 }
@@ -82,14 +84,26 @@ form .txt_field{
   text-decoration: underline;
 }
 
-  .clear{
-
-    color: #a6a6a6;
-    cursor: pointer;
-  }
-  .clear:hover{
-    text-decoration: underline;
+.clear {
+  float: right;
+  margin-right: 10%;
 }
+.clear:hover{
+  text-decoration: underline;
+}
+
+
+.pass, .clear {
+  color: #a6a6a6;
+  cursor: pointer;
+  display: inline-block;
+}
+.adjust {
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+
 input[type="submit"]{
   width: 100%;
   height: 50px;
@@ -120,21 +134,3 @@ input[type="submit"]:hover{
   text-decoration: underline;
 }
 
-.pass,
-.clear{
-  color: #a6a6a6;
-  cursor: pointer;
-  display: inline-block;
-}
-.pass:hover,
-.clear:hover{
-  text-decoration: underline;
-}
-.clear{
-  float: right;
-  margin-right: 10%;
-}
-.adjust{
-  margin-bottom: 30px;
-  margin-top: 40px;
-}
