@@ -21,7 +21,7 @@ function openPopup(courseCode) {
 
     else if (courseCode === "ELC550") {
       title.textContent = "ELC550 - English for academic writing";
-      description.textContent = "--------------------------\nLecturer Name: Siti Fauziana binti Zakaria.\n\nThis course focuses on developing students? ability to write academic texts. It provides students with a structured method for paraphrasing, summarising and organising the content of written texts. This course also enhances students? critical thinking skills to synthesise and evaluate academic texts using a standardised reference/citation format.";
+      description.textContent = "--------------------------\nLecturer Name: Siti Fauziana binti Zakaria.\n\nThis course focuses on developing students ability to write academic texts. It provides students with a structured method for paraphrasing, summarising and organising the content of written texts. This course also enhances students? critical thinking skills to synthesise and evaluate academic texts using a standardised reference/citation format.";
       description.style.whiteSpace = "pre-wrap";
     }
 
