@@ -25,7 +25,7 @@ function openPopup(courseCode) {
       description.style.whiteSpace = "pre-wrap";
     }
 
-    else if (courseCode === "IT462") {
+    else if (courseCode === "ITS462") {
       title.textContent = "ITS462 - Fundamental of Artificial Intelligence";
       description.textContent = "--------------------------\nLecturer Name: Dr. Farah Aqilah binti Bohani .\n\nThis subject will cover fundamental concepts and methods of artificial intelligence and the artificial intelligence knowledge representation schemes which include description of automated reasoning with both propositional and predicated logic. \n\nOther topics presented are artificial intelligence problem solving methods that includes heuristics search procedures for general graphs, game playing strategies, resolution and rule based deduction systems, knowledge representation, and reasoning with uncertainty.";
       description.style.whiteSpace = "pre-wrap";
